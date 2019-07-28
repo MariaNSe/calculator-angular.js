@@ -1,0 +1,7 @@
+<div class="result-container">
+    {{firstValue || 0 }}
+    <span ng-if="currentModifier">{{currentModifier}}</span>
+    <span ng-if="secondValue">{{ secondValue }}</span>
+    <span ng-if="result" class="result-item"> = {{ result }}</span>
+    <button class="clear-button" ng-click="clearNumbers()">X</button>
+</div>
